@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Hello"
+    />
+<EditText
+    android:id="@+id/searchtext"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    />
+<Button
+    android:id="@+id/searchbutton"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Search"
+    />
+<TextView  
+    android:id="@+id/title"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:textSize="15sp"
+    android:textStyle="bold"
+    />
+<android.support.v4.view.ViewPager
+          android:id="@+id/view_pager"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent" /> 
+          
+</LinearLayout>
